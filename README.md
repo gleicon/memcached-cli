@@ -4,7 +4,7 @@
 	history and verbose mode for get
 
 ## installing
-	$ go get github.com/gleicon/memcached-cli
+	$ go install github.com/gleicon/memcached-cli
 
 ## build
 	$ make
