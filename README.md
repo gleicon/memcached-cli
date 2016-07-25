@@ -4,10 +4,13 @@
 	history and verbose mode for get
 
 ## installing
-	$ go install github.com/gleicon/memcached-cli
+	$ go get -u github.com/gleicon/memcached-cli
+	$ go install memcached-cli
 
 ## build
+	$ go get -u github.com/gleicon/memcached-cli
 	$ make
+	then copy the binary to the path you want
 
 ## running
 	$ memcached-cli -s server:port
